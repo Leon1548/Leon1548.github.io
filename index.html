@@ -10,7 +10,7 @@
     <img src="px_games.png" alt="pxlgames_logo" style="width:5vw;height:5vw;"></img>
     <div style="width: 100%;height: 1%;text-align:center; margin-top: -4vw">
       <button href="games.html" id="finishedbutton" style="height: 2vw; width: 15vw; font-family: Verdana, Geneva, Tahoma, sans-serif;color:grey;text-decoration: none; font-size:1vw;">Finished Games</button>
-      <button href="games.html" style="height: 2vw; width: 15vw; font-family: Verdana, Geneva, Tahoma, sans-serif;color:grey;text-decoration: none; font-size:1vw;">Home</button>
+      <button href="games.html" id="homebutton" style="height: 2vw; width: 15vw; font-family: Verdana, Geneva, Tahoma, sans-serif;color:grey;text-decoration: none; font-size:1vw;">Home</button>
       <button href="games.html" id="unfinishedbutton" style="height: 2vw; width: 15vw; font-family: Verdana, Geneva, Tahoma, sans-serif;color:grey;text-decoration: none; font-size:1vw;">Unfinished Games</button>
 
       <script>
@@ -35,6 +35,12 @@
               document.getElementById('unfinishedpanel').style.display = "none";
               document.getElementById('finishedpanel').style.display = "none";
             }
+          
+        };
+
+        document.getElementById('homebutton').onclick = function() {
+            document.getElementById('finishedpanel').style.display = "none";
+            document.getElementById('unfinishedpanel').style.display = "none";
           
         };
 
@@ -91,7 +97,7 @@
       <a style="font-size: 1.5vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">Lario Ware</a>
       <a style="font-size: 1.5vw; margin-left: 11.5vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">What i learned</a>
       <a style="font-size: 1.5vw; margin-left: 8vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">Why i lost motivation</a>
-      <button style="width: 5vw; height: 2vw; margin-left: 60vw; margin-top: 5vw; font-size: 1vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">Play</button>
+      <button style="width: 5vw; height: 2vw; margin-left: 60vw; margin-top: 5vw; font-size: 1vw; font-family: Verdana, Geneva, Tahoma, sans-serif; background-color: white;">Play</button>
     </div>
     <div style="width: 18vw; height: 10vw; margin-top: -7.8vw; margin-left: 14vw;">
       <a style=" color:grey; font-size: 0.8vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">A 2d Mobile Game, in the wario ware style. Small little minigames after another, try not to fail. only 5 games were ever implemented.</a>
@@ -118,7 +124,7 @@
       <a style="font-size: 1.5vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">PC Inspector</a>
       <a style="font-size: 1.5vw; margin-left: 10vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">What i learned</a>
       <a style="font-size: 1.5vw; margin-left: 8vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">Why i lost motivation</a>
-      <button style="width: 5vw; height: 2vw; margin-left: 60vw; margin-top: 5vw; font-size: 1vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">Play</button>
+      <button style="width: 5vw; height: 2vw; margin-left: 60vw; margin-top: 5vw; font-size: 1vw; font-family: Verdana, Geneva, Tahoma, sans-serif; background-color: white;">Play</button>
     </div>
     <div style="width: 18vw; height: 10vw; margin-top: -7.8vw; margin-left: 14vw;">
       <a style=" color:grey; font-size: 0.8vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">A 2D Game where you got an computer from a customer and need to find a virus, you can use different apps, play games etc. A Crime dlc was planned where you need to look if the owner of the computer commited a crime. A freeplay mode was also planned</a>
@@ -147,7 +153,7 @@
       <a style="font-size: 1.5vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">OKAY BOOMER!</a>
       <a style="font-size: 1.5vw; margin-left: 7.7vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">What i learned</a>
       <a style="font-size: 1.5vw; margin-left: 8vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">Why i lost motivation</a>
-      <button style="width: 5vw; height: 2vw; margin-left: 60vw; margin-top: 5vw; font-size: 1vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">Play</button>
+      <button style="width: 5vw; height: 2vw; margin-left: 60vw; margin-top: 5vw; font-size: 1vw; font-family: Verdana, Geneva, Tahoma, sans-serif; background-color: white;">Play</button>
     </div>
     <div style="width: 18vw; height: 10vw; margin-top: -7.8vw; margin-left: 14vw;">
       <a style=" color:grey; font-size: 0.8vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">A 3D Multiplayer Game, where you run around in a city and pickup different things to try to kill your other players</a>
@@ -174,7 +180,7 @@
       <a style="font-size: 1.5vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">Evade</a>
       <a style="font-size: 1.5vw; margin-left: 15vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">What i learned</a>
       <a style="font-size: 1.5vw; margin-left: 8vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">Why i lost motivation</a>
-      <button style="width: 5vw; height: 2vw; margin-left: 60vw; margin-top: 5vw; font-size: 1vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">Play</button>
+      <button style="width: 5vw; height: 2vw; margin-left: 60vw; margin-top: 5vw; font-size: 1vw; font-family: Verdana, Geneva, Tahoma, sans-serif; background-color: white;">Play</button>
     </div>
     <div style="width: 18vw; height: 10vw; margin-top: -7.8vw; margin-left: 14vw;">
       <a style=" color:grey; font-size: 0.8vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">A 3D Multiplayer Game, based on the roblox game with the same name. Run away from NextBots and try not to get caught</a>
@@ -201,7 +207,7 @@
       <a style="font-size: 1.5vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">Unnamed Game</a>
       <a style="font-size: 1.5vw; margin-left: 7.5vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">What i learned</a>
       <a style="font-size: 1.5vw; margin-left: 8vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">Why i lost motivation</a>
-      <button style="width: 5vw; height: 2vw; margin-left: 60vw; margin-top: 5vw; font-size: 1vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">Play</button>
+      <button style="width: 5vw; height: 2vw; margin-left: 60vw; margin-top: 5vw; font-size: 1vw; font-family: Verdana, Geneva, Tahoma, sans-serif; background-color: white;">Play</button>
     </div>
     <div style="width: 18vw; height: 10vw; margin-top: -7.8vw; margin-left: 14vw;">
       <a style=" color:grey; font-size: 0.8vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">A 3D Survival Game, cut down trees, collect stone. The Game wasnt named and is one of the most unfinished Games. In my unity repositories it is currently named "Procedural Survival", procedural Generation was planned but never implemented</a>
@@ -228,7 +234,7 @@
       <a style="font-size: 1.5vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">MemeZ</a>
       <a style="font-size: 1.5vw; margin-left: 14vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">What i learned</a>
       <a style="font-size: 1.5vw; margin-left: 8vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">Why i lost motivation</a>
-      <button style="width: 5vw; height: 2vw; margin-left: 60vw; margin-top: 5vw; font-size: 1vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">Play</button>
+      <button style="width: 5vw; height: 2vw; margin-left: 60vw; margin-top: 5vw; font-size: 1vw; font-family: Verdana, Geneva, Tahoma, sans-serif; background-color: white;">Play</button>
     </div>
     <div style="width: 18vw; height: 10vw; margin-top: -7.8vw; margin-left: 14vw;">
       <a style=" color:grey; font-size: 0.8vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">A 2d Card Game with Meme Cards. Really Simple mechanics</a>
@@ -261,6 +267,7 @@
     </div>
     <div style="width: 18vw; height: 10vw; margin-top: -7.8vw; margin-left: 14vw;">
       <a style=" color:grey; font-size: 0.8vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">A 2D Sandbox Game based on Mario Maker. Create your own 2D Platforming Levels with predefined Objects that you can place and modify wherever you want. You can even save and load your Levels!</a>
+      <a style=" color:darkred; font-size: 0.8vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">(please note that saving and loading doesn't work on webgl)</a>
     </div>
     <div style="width: 15vw; height: 10vw; margin-top: -10vw; margin-left: 34.6vw;">
       <li style=" color:grey; font-size: 0.8vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">Working with Tilebases</li>
