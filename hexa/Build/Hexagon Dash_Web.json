@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Hexagon Dash",
+"productVersion": "V1.0",
+"dataUrl": "Hexagon Dash_Web.data.unityweb",
+"wasmCodeUrl": "Hexagon Dash_Web.wasm.code.unityweb",
+"wasmFrameworkUrl": "Hexagon Dash_Web.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.15f1"
+}
